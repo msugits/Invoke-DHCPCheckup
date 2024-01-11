@@ -42,7 +42,7 @@ function GetActiveActiveDhcpServers
 
 function GetStrongUsers
 {
-    $strongGroups = ("Domain Controllers", "Domain Admins", "Enterprise Admins", "DnsAdmins", "Administrators")
+    $strongGroups = ("Domänencontroller", "Domänen-Admins", "Organisations-Admins", "DnsAdmins", "Administratoren")
     $strongGroupsMembers = @()
 
     foreach ($group in $strongGroups)
